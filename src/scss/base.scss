@@ -1,0 +1,47 @@
+@import "colors.scss";
+@import "constants.scss";
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	z-index: 0;
+}
+
+body {
+/*
+	background-image: url('../img/overlay.png'),
+			linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+			url('../img/bg.jpg');
+	background-size: 100% auto 100% auto;
+
+	background-position: center center top center;
+	background-repeat: repeat no-repeat no-repeat;
+	background-attachment: fixed fixed fixed;
+*/
+
+	background: $body-bg;
+
+	&.fade-in {
+		&:before {
+			display: none;
+		}
+	}
+	margin: 0;
+	z-index: 0;
+}
+
+$error-font-color: #ac353c;
+
+.error {
+	background: #ffcbcb;
+	border: 2px;
+	border-radius: 0.5rem;
+	color: $error-font-color;
+	display: none;
+	padding: 1rem;
+}
