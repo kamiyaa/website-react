@@ -59,7 +59,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
-  transition: 400ms ease-in; }
+  transition: 300ms ease-in; }
 
 .flex_card {
   background-color: #141a30;
@@ -71,7 +71,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   max-width: 350px;
   overflow: hidden;
   padding: 0;
-  transition: 400ms ease-in; }
+  transition: 300ms ease-in; }
   .flex_card a {
     color: #ffe170;
     text-decoration: none; }
@@ -101,7 +101,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
     max-width: 100%;
     max-height: 50%;
     padding: 0;
-    transition: 400ms ease; }
+    transition: 300ms ease-in; }
   .flex_card:hover {
     box-shadow: 0 0 16px -4px black;
     opacity: 0.85; }
@@ -137,7 +137,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   margin: 1rem 0.5rem 0 0.5rem;
   width: 100%;
   padding: 0;
-  transition: .5s ease; }
+  transition: 300ms ease-in; }
   .horizontal_card a {
     color: #ffe170;
     text-decoration: none; }
@@ -175,7 +175,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   max-height: 84px;
   margin: 1rem;
   padding: 0.3rem;
-  transition: 400ms ease; }
+  transition: 300ms ease-in; }
   .horizontal_card_icon:hover {
     opacity: 0.80; }
 

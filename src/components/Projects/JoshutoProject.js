@@ -62,8 +62,7 @@ and can be freed. Rust also will only allow either n immutable borrows or
 <br/>
 In the beginning, it was very hard fighting with the borrow checker.
 For example:
-<br/>
-<br/>
+<div className="code-block">
 <code>
 let myStruct = myStruct::new();
 <br/>
@@ -72,8 +71,7 @@ let myVar = &myStruct.fieldA;
 <br/>
 func(&mut myStruct);
 </code>
-<br/>
-<br/>
+</div>
 This code would not compile because we are passing myStruct as a mutable variable
 into while myVar holds an immutable reference to myStruct.
 <br/>

@@ -55,9 +55,10 @@
 background: rgb(255,225,112);
 background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%);
 */
-.code-generic {
-  background-color: #eee;
-  font-size: 14px;
+.code-block {
+  background-color: #141a30;
+  border-radius: 6px;
+  box-shadow: 0 0 16px -4px #888;
+  color: white;
   margin: 1rem 0 1rem 0;
-  padding: 1rem;
-  border-radius: 0.4rem; }
+  padding: 1rem; }

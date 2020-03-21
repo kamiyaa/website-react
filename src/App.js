@@ -5,7 +5,7 @@ import AppRouter from "./AppRouter";
 import "./css/article.css";
 import "./css/base.css";
 import "./css/cards.css";
-import "./css/code.css";
+import "./css/codeblock.css";
 import "./css/colors.css";
 import "./css/constants.css";
 import "./css/footer.css";
