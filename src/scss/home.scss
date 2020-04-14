@@ -29,7 +29,7 @@
 }
 
 .home-link {
-	color: white;
+	color: inherit;
 	font-size: 22px;
 	font-weight: bold;
 	margin: 0 0.7rem 0 0;
@@ -39,12 +39,21 @@
 	&:hover {
 		color: $primary-yellow;
 		background-color: rgba(255,255,255,0.2);
+		text-decoration: inherit;
+	}
+	&:visited {
+		color: inherit;
+		text-decoration: inherit;
+	}
+	&:visited:hover {
+		color: $primary-yellow;
+		text-decoration: inherit;
 	}
 }
 
 .home-logo-link {
 	border-bottom: 3px solid white;
-	color: white;
+	color: inherit;
 	font-family: $font-family-p;
 	font-size: 30px;
 	font-weight: bold;
@@ -56,15 +65,30 @@
 		color: $primary-yellow;
 		background-color: rgba(255,255,255,0.2);
 		border-bottom: 3px solid $primary-yellow;
+		text-decoration: inherit;
+	}
+	&:visited {
+		color: inherit;
+		text-decoration: inherit;
+	}
+	&:visited:hover {
+		color: $primary-yellow;
+		text-decoration: inherit;
 	}
 }
 
 .home-icon {
-	color: white;
+	color: inherit;
 	font-size: 26px;
 	margin-right: 0.8rem;
 	transition: 0.3s;
 	&:hover {
+		color: $primary-yellow;
+	}
+	&:visited {
+		color: inherit;
+	}
+	&:visited:hover {
 		color: $primary-yellow;
 	}
 }

@@ -29,13 +29,14 @@ const IBMExperience = {
 function IBMExperienceComponent() {
 	return (
 <div>
-	<ExperienceHeader experience={IBMExperience}/>
+<ExperienceHeader experience={IBMExperience}/>
 <p>
 Being part of the <b>Runtimes</b> team here at IBM, I was responsible for
 working <ATab href="https://www.eclipse.org/openj9/">OpenJ9</ATab>,
 IBM's own open source implementation of Java.
 <br/>
 </p>
+
 <h5>Disassembler Work</h5>
 <p>
 <b>Background:</b>
@@ -82,6 +83,7 @@ Other features I've worked on for our internal disassembler:
 All this required me to ensure it worked on all IBM-supported platforms,
 such as AIX, zOS, LinuxPPC and zLinux.
 </p>
+
 <h5>OpenJ9's Shared Class Cache</h5>
 <p>
 One of the features OpenJ9 has
@@ -95,9 +97,9 @@ You can read more about it on the OpenJ9 blog post <ATab
 href="https://blog.openj9.org/2019/12/17/developing-with-appsody-and-openj9-scc/">
 here</ATab>.
 </p>
+
 <h5>Conclusions Of My Internship</h5>
-<p>Coming in May 2020
-</p>
+<p>Coming in May 2020</p>
 </div>
 	);
 }

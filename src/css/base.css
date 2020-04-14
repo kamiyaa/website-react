@@ -12,17 +12,8 @@ html {
   z-index: 0; }
 
 body {
-  /*
-	background-image: url('../img/overlay.png'),
-			linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
-			url('../img/bg.jpg');
-	background-size: 100% auto 100% auto;
-
-	background-position: center center top center;
-	background-repeat: repeat no-repeat no-repeat;
-	background-attachment: fixed fixed fixed;
-*/
   background: #141a30;
+  padding: 0;
   margin: 0;
   z-index: 0; }
   body.fade-in:before {

@@ -80,7 +80,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   margin: 1rem; }
 
 .home-link {
-  color: white;
+  color: inherit;
   font-size: 22px;
   font-weight: bold;
   margin: 0 0.7rem 0 0;
@@ -89,11 +89,18 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   text-decoration: none; }
   .home-link:hover {
     color: #ffe170;
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: inherit; }
+  .home-link:visited {
+    color: inherit;
+    text-decoration: inherit; }
+  .home-link:visited:hover {
+    color: #ffe170;
+    text-decoration: inherit; }
 
 .home-logo-link {
   border-bottom: 3px solid white;
-  color: white;
+  color: inherit;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -104,14 +111,25 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   .home-logo-link:hover {
     color: #ffe170;
     background-color: rgba(255, 255, 255, 0.2);
-    border-bottom: 3px solid #ffe170; }
+    border-bottom: 3px solid #ffe170;
+    text-decoration: inherit; }
+  .home-logo-link:visited {
+    color: inherit;
+    text-decoration: inherit; }
+  .home-logo-link:visited:hover {
+    color: #ffe170;
+    text-decoration: inherit; }
 
 .home-icon {
-  color: white;
+  color: inherit;
   font-size: 26px;
   margin-right: 0.8rem;
   transition: 0.3s; }
   .home-icon:hover {
+    color: #ffe170; }
+  .home-icon:visited {
+    color: inherit; }
+  .home-icon:visited:hover {
     color: #ffe170; }
 
 .languages-list {

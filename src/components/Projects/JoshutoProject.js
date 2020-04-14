@@ -25,10 +25,11 @@ const JoshutoProject = {
 
 function JoshutoProjectComponent() {
 	return (
-	<div>
-	<ProjectHeader project={JoshutoProject}/>
-	<p>
+<div>
+<ProjectHeader project={JoshutoProject}/>
+<br/>
 <h5>Background</h5>
+<p>
 At first, I wanted to learn <b>C++</b> because it had all the features of a
 modern language while still being comparable to C in performance. While
 researching about C++, I stumbled across Rust, the shiny new language that
@@ -51,8 +52,8 @@ So with my newly learned Rust skills, I decided to write my own file manager
 that incorporates many of the features of Ranger, while keeping it lean and fast.
 </p>
 
-<p>
 <h5>Challenges</h5>
+<p>
 There were many challenges I faced along the way.
 The first was Rust's borrow checker. Compared to most other languages, Rust has a
 very strict programming style. Without a garbage collector and manual memory management,
@@ -92,8 +93,9 @@ where the main thread also talks with the input thread.
 This allowed to main thread to essentially control the input thread and tell it
 exactly when it wants input.
 </p>
-<p>
+
 <h5>Conclusion</h5>
+<p>
 Overall, I am very proud of this project. I also really enjoyed programming in
 Rust. And although, some concepts are very hard to express in Rust
 (linked data structures), it's benefits are very attractive.
