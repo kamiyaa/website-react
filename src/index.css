@@ -180,6 +180,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
     margin: 0;
     font-weight: normal; }
   .article-content p {
+    margin: 0;
     font-size: 1.1rem; }
   .article-content li {
     font-size: 1.1rem; }
