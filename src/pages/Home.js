@@ -13,7 +13,7 @@ const PicStyle = {
 	borderRadius: "9999px",
 	marginTop: "1rem",
 	marginBottom: "0",
-	height: "4rem",
+	height: "12rem",
 	boxShadow: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
 };
 
