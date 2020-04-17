@@ -3,16 +3,16 @@ import React from 'react';
 import { ProjectHeader } from ".";
 
 const SpaceFarmerBotProject = {
-	Name: "SpaceFarmerBot",
-	Description: "Discord Bot",
-	Url: "https://github.com/Tusk98/SpaceFarmerBot",
-	Language: "Golang",
-	Owner: "Tusk98",
-	RepoName: "SpaceFarmerBot",
-	PreviewImgUrl: "https://raw.githubusercontent.com/Tusk98/SpaceFarmerBot/master/SpaceFarmer.jpg",
-	PreviewThumbnailUrl: "https://raw.githubusercontent.com/Tusk98/SpaceFarmerBot/master/SpaceFarmer.jpg",
-	Tags: [ "Golang", "Discord", "Json" ],
-	GithubStats: {},
+	name: "SpaceFarmerBot",
+	description: "Discord Bot",
+	url: "https://github.com/Tusk98/SpaceFarmerBot",
+	language: "Golang",
+	owner: "Tusk98",
+	repoName: "SpaceFarmerBot",
+	previewImgUrl: "https://raw.githubusercontent.com/Tusk98/SpaceFarmerBot/master/SpaceFarmer.jpg",
+	previewThumbnailUrl: "https://raw.githubusercontent.com/Tusk98/SpaceFarmerBot/master/SpaceFarmer.jpg",
+	tags: [ "Golang", "Discord", "Json" ],
+	githubStats: {},
 };
 
 function SpaceFarmerBotProjectComponent() {

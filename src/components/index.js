@@ -8,10 +8,6 @@ export {
 } from "./Footer";
 
 export {
-        CircleProfile,
-} from "./CircleProfile";
-
-export {
         MenuStrip,
 } from "./MenuStrip";
 

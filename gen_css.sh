@@ -14,3 +14,6 @@ do
 	echo "compiling $SASS_DIR/$f -> $CSS_DIR/$css_f"
 	sassc "$SASS_DIR/$f" > "$CSS_DIR/$css_f"
 done
+
+echo "cat ${CSS_DIR}"/*.css "-> src/index.css"
+cat "$CSS_DIR"/*.css > "src/index.css"

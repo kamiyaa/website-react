@@ -4,32 +4,35 @@ import { Link, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-import { Footer, Header, MenuStrip, ScrollToTop } from '../components';
-import { ExperienceDetails } from '../components/Experiences';
+import { Footer, Header, MenuStrip, ScrollToTop } from "../../components";
+import { ExperienceList as List } from "../../components/Experiences";
 
 const marginLeft = {
 	display: "inline",
 	marginLeft: "0.5rem",
 };
 
-function ExperienceDetail() {
+const backName = "Experiences";
+const backUrl = "/experiences";
+
+const ExperienceDetails = () => {
 	let { id } = useParams();
 
-	if (id >= ExperienceDetails.length) {
+	if (id >= List.length) {
 		return null;
 	}
 
-	const Content = ExperienceDetails[id].Component;
+	const Content = List[id].Component;
 
 	const bookmarks =
 		<Link
 			alt="back"
 			className="article-topbar-link"
-			to="/experiences">
+			to={backUrl}>
 		<FontAwesomeIcon
 			icon={faArrowLeft}/>
 		<div style={marginLeft}>
-		Experiences
+		{backName}
 		</div>
 		</Link>;
 
@@ -37,7 +40,7 @@ function ExperienceDetail() {
 <div>
 <Header/>
 <div className="article">
-	<MenuStrip bookmarks={bookmarks}/>
+	<MenuStrip>{bookmarks}</MenuStrip>
 	<div className="article-content">
 	<Content/>
 	</div>
@@ -48,6 +51,6 @@ function ExperienceDetail() {
 	);
 }
 
-export { ExperienceDetail };
+export { ExperienceDetails };
 
-export default ExperienceDetail;
+export default ExperienceDetails;

@@ -27,16 +27,16 @@ function ProjectHeader(props) {
 	const [ projectError, setProjectError ] = useState(ProjectErrorEnum.Loading);
 
 	useEffect(() => {
-		if (typeof(project.GithubStats.stargazers_count) !== "undefined"
-			&& typeof(project.GithubStats.forks_count) !== "undefined") {
-			setProjectStars(project.GithubStats.stargazers_count);
-			setProjectForks(project.GithubStats.forks_count);
+		if (typeof(project.githubStats.stargazers_count) !== "undefined"
+			&& typeof(project.githubStats.forks_count) !== "undefined") {
+			setProjectStars(project.githubStats.stargazers_count);
+			setProjectForks(project.githubStats.forks_count);
 			setProjectReady(true);
 			return;
 		}
 
 
-		const apiUrl = `https://api.github.com/repos/${project.Owner}/${project.RepoName}`;
+		const apiUrl = `https://api.github.com/repos/${project.owner}/${project.repoName}`;
 
 		fetch(apiUrl, {})
 		.then(resp => resp.json())
@@ -46,11 +46,11 @@ function ProjectHeader(props) {
 				setProjectError(ProjectErrorEnum.LimitReached);
 				return;
 			}
-			project.GithubStats.stargazers_count = json.stargazers_count;
-			project.GithubStats.forks_count = json.forks_count;
+			project.githubStats.stargazers_count = json.stargazers_count;
+			project.githubStats.forks_count = json.forks_count;
 
-			setProjectStars(project.GithubStats.stargazers_count);
-			setProjectForks(project.GithubStats.forks_count);
+			setProjectStars(project.githubStats.stargazers_count);
+			setProjectForks(project.githubStats.forks_count);
 			setProjectReady(true);
 		})
 		.catch(err => {
@@ -58,10 +58,10 @@ function ProjectHeader(props) {
 			console.log(err);
 		});
 
-	}, [project.GithubStats.stargazers_count
-		, project.GithubStats.forks_count
-		, project.Owner
-		, project.RepoName]);
+	}, [project.githubStats.stargazers_count
+		, project.githubStats.forks_count
+		, project.owner
+		, project.repoName]);
 
 	let githubMetrics;
 	if (projectReady) {
@@ -101,12 +101,12 @@ function ProjectHeader(props) {
 
 	return (
 <div>
-	<h3 id={project.Name}>{project.Name}</h3>
-	<h6>{project.Description}, {project.Language}</h6>
+	<h3 id={project.name}>{project.name}</h3>
+	<h6>{project.description}, {project.language}</h6>
 
 	<div style={githubSectionStyle}>
 	<a
-	href={project.Url}
+	href={project.url}
 	target="_blank"
 	rel="noopener noreferrer"
 	>
@@ -115,21 +115,18 @@ function ProjectHeader(props) {
 	{githubMetrics}
 	</div>
 
-	{ project.Tags ? (
+	{ project.tags ? (
 	<ul id="tag-list">
-		{ project.Tags.map(tag => {
-				return <li>{tag}</li>;
-			})
-		}
+		{ project.tags.map((tag, index) => (<li key={`tag-{index}`}>{tag}</li>)) }
 	</ul>
 	) : null }
 	<a
-	href={project.PreviewImgUrl}
+	href={project.previewImgUrl}
 	rel="noopener noreferrer"
 	target="_blank">
 		<img className="project-image"
-			alt={project.Name}
-			src={project.PreviewThumbnailUrl}
+			alt={project.name}
+			src={project.previewThumbnailUrl}
 		/>
 	</a>
 </div>

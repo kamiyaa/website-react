@@ -3,14 +3,14 @@ import React from 'react';
 import { ExperienceHeader } from ".";
 
 const OPSExperience = {
-	Title: "Application Programmer",
-	Company: "Ontario Public Service",
-	CompanyUrl: "https://www.ontario.ca/",
-	StartDate: "May 2018",
-	EndDate: "August 2018",
-	PreviewImgUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/OPS_002.png",
-	PreviewThumbnailUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/OPS_002.png",
-	Tags: [ "Java", "JasperReports", "Vbscript", "HP Quality Center",
+	title: "Application Programmer",
+	company: "Ontario Public Service",
+	companyUrl: "https://www.ontario.ca/",
+	startDate: "May 2018",
+	endDate: "August 2018",
+	previewImgUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/OPS_002.png",
+	previewThumbnailUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/OPS_002.png",
+	tags: [ "Java", "JasperReports", "Vbscript", "HP Quality Center",
 		"HP UFT"],
 }
 

@@ -5,18 +5,17 @@ function ExperienceHeader(props) {
 	return (
 <div>
 
-	<h2 id={experience.Title}>{experience.Title}</h2>
+	<h2 id={experience.title}>{experience.title}</h2>
 	<h4><a
 		target="_blank"
 		rel="noopener noreferrer"
-		href={experience.CompanyUrl}>{experience.Company}</a></h4>
-	<h6>{experience.StartDate} - {experience.EndDate}</h6>
-	{ experience.Tags ? (
+		href={experience.companyUrl}>{experience.company}</a></h4>
+	<h6>{experience.startDate} - {experience.endDate}</h6>
+	{ experience.tags ? (
 	<ul id="tag-list">
-		{ experience.Tags.map(tag => {
-				return <li>{tag}</li>;
-			})
-		}
+		{ experience.tags.map((tag, index) => (
+			<li key={`tag-${index}`}>{tag}</li>
+		)) }
 	</ul>
 	) : null }
 </div>

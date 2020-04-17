@@ -55,16 +55,13 @@ function Header() {
 		return (
 		<div ref={menuRef} className="hamburger-menu">
 			<ul>
-			{HeaderLinks.map(function(link, index) {
-				return (
-			<li id={`link`}><Link
-				className="logo-link-nth"
-				key={index}
-				to={link.Url}>> {link.Name}</Link>
-			</li>
-				);
-			})
-			}
+			{ HeaderLinks.map((link, index) => (
+				<li key={`headerlink-${index}`}><Link
+					className="logo-link-nth"
+					key={index}
+					to={link.Url}>> {link.Name}</Link>
+				</li>
+			)) }
 			</ul>
 		</div>
 		);

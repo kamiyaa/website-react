@@ -3,15 +3,15 @@ import React from 'react';
 import { ProjectHeader } from ".";
 
 const JoshutoProject = {
-	Name: "Joshuto",
-	Description: "Terminal File Manager",
-	Url: `https://github.com/kamiyaa/joshuto`,
-	Language: "Rust",
-	Owner: "kamiyaa",
-	RepoName: "joshuto",
-	PreviewImgUrl: "https://github.com/kamiyaa/joshuto/raw/master/screenshot.png",
-	PreviewThumbnailUrl: "https://github.com/kamiyaa/joshuto/raw/master/screenshot.png",
-	Tags: [ "Rust",
+	name: "Joshuto",
+	description: "Terminal File Manager",
+	url: `https://github.com/kamiyaa/joshuto`,
+	language: "Rust",
+	owner: "kamiyaa",
+	repoName: "joshuto",
+	previewImgUrl: "https://github.com/kamiyaa/joshuto/raw/master/screenshot.png",
+	previewThumbnailUrl: "https://github.com/kamiyaa/joshuto/raw/master/screenshot.png",
+	tags: [ "Rust",
 		"Termion",
 		"Tui-rs",
 		"Terminal",
@@ -20,7 +20,7 @@ const JoshutoProject = {
 		"Boxing",
 		"Toml"
 	],
-	GithubStats: {},
+	githubStats: {},
 };
 
 function JoshutoProjectComponent() {

@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react";
 
 import { ProjectHeader } from ".";
 
 const GameOfLifeProject = {
-	Name: "Game of Life",
-	Description: "Game of Life Simulator",
-	Url: "https://github.com/kamiyaa/game-of-life",
-	Language: "Rust, Javascript, WebAssembly",
-	Owner: "kamiyaa",
-	RepoName: "game-of-life",
-	PreviewImgUrl: "https://github.com/kamiyaa/game-of-life/raw/master/screenshot.png",
-	PreviewThumbnailUrl: "https://github.com/kamiyaa/game-of-life/raw/master/screenshot.png",
-	Tags: [ "Rust",
+	name: "Game of Life",
+	description: "Game of Life Simulator",
+	url: "https://github.com/kamiyaa/game-of-life",
+	language: "Rust, Javascript, WebAssembly",
+	owner: "kamiyaa",
+	repoName: "game-of-life",
+	previewImgUrl: "https://github.com/kamiyaa/game-of-life/raw/master/screenshot.png",
+	previewThumbnailUrl: "https://github.com/kamiyaa/game-of-life/raw/master/screenshot.png",
+	tags: [ "Rust",
 		"WebAssembly",
 		"Javascript",
 		"Webpack"
 	],
-	GithubStats: {},
+	githubStats: {},
 };
 
 function GameOfLifeProjectComponent() {
@@ -27,7 +27,8 @@ function GameOfLifeProjectComponent() {
 		<a
 		target="_blank"
 		rel="noopener noreferrer"
-		href="https://kamiyaa.github.io/game-of-life/"><button>
+		href="https://kamiyaa.github.io/game-of-life/">
+		<button className="bg-blue">
 		Try it here!
 		</button></a>
 	</p>

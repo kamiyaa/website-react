@@ -15,7 +15,7 @@ export {
 
 export {
 	ExperienceList,
-	ExperienceDetails
+	ExperienceListComponent,
 } from "./ExperienceList";
 
 export {

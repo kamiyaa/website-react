@@ -9,12 +9,12 @@ export {
 
 export {
 	SpaceFarmerBotProject,
-	SpaceFarmerBotProjectComponent
+	SpaceFarmerBotProjectComponent,
 } from "./SpaceFarmerBotProject";
 
 export {
 	RuijiProject,
-	RuijiProjectComponent
+	RuijiProjectComponent,
 } from "./RuijiProject";
 
 export {
@@ -24,11 +24,15 @@ export {
 
 export {
 	WebsiteProject,
-	WebsiteProjectComponent
+	WebsiteProjectComponent,
 } from "./WebsiteProject";
 
 export {
 	ProjectList,
-	ProjectsDetails
+	ProjectListComponent,
 } from "./ProjectList";
+
+export {
+	ProjectCard,
+} from "./ProjectCard";
 

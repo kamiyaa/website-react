@@ -3,14 +3,14 @@ import React from 'react';
 import { ExperienceHeader } from ".";
 
 const TAExperience = {
-	Title: "Teaching Assistant",
-	Company: "University of Toronto",
-	CompanyUrl: "https://www.utoronto.ca/",
-	StartDate: "September 2017",
-	EndDate: "December 2019",
-	PreviewImgUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/UofT_002.jpg",
-	PreviewThumbnailUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/UofT_002.jpg",
-	Tags: [ "C", "Python", "Java", "Shell",
+	title: "Teaching Assistant",
+	company: "University of Toronto",
+	companyUrl: "https://www.utoronto.ca/",
+	startDate: "September 2017",
+	endDate: "December 2019",
+	previewImgUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/UofT_002.jpg",
+	previewThumbnailUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/UofT_002.jpg",
+	tags: [ "C", "Python", "Java", "Shell",
 		"SVN", "Design Patterns",
 		"OOP/SOLID design", "Pipes/Sockets", ],
 }

@@ -3,16 +3,16 @@ import React from 'react';
 import { ProjectHeader } from ".";
 
 const RuijiProject = {
-	Name: "Ruiji",
-	Description: "Reverse Image Search Tool",
-	Url: "https://github.com/kamiyaa/ruiji",
-	Language: "C",
-	Owner: "kamiyaa",
-	RepoName: "ruiji",
-	PreviewImgUrl: "https://github.com/kamiyaa/ruiji/raw/master/ruiji_screenshot.png",
-	PreviewThumbnailUrl: "https://github.com/kamiyaa/ruiji/raw/master/ruiji_screenshot.png",
-	Tags: [ "C", "Curl", "Make", "Meson" ],
-	GithubStats: {},
+	name: "Ruiji",
+	description: "Reverse Image Search Tool",
+	url: "https://github.com/kamiyaa/ruiji",
+	language: "C",
+	owner: "kamiyaa",
+	repoName: "ruiji",
+	previewImgUrl: "https://github.com/kamiyaa/ruiji/raw/master/ruiji_screenshot.png",
+	previewThumbnailUrl: "https://github.com/kamiyaa/ruiji/raw/master/ruiji_screenshot.png",
+	tags: [ "C", "Curl", "Make", "Meson" ],
+	githubStats: {},
 };
 
 function RuijiProjectComponent() {

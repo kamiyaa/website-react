@@ -3,16 +3,16 @@ import React from 'react';
 import { ProjectHeader } from ".";
 
 const WebsiteProject = {
-	Name: "Website",
-	Description: "My Personal Website",
-	Url: `https://github.com/kamiyaa/kamiyaa.github.io`,
-	Language: "React.js, Sass",
-	Owner: "kamiyaa",
-	RepoName: "kamiyaa.github.io",
-	PreviewImgUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/preview.png",
-	PreviewThumbnailUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/preview.png",
-	Tags: [ "Javascript", "React", "React Hooks", "Sass", "npm" ],
-	GithubStats: {},
+	name: "Website",
+	description: "My Personal Website",
+	url: `https://github.com/kamiyaa/kamiyaa.github.io`,
+	language: "React.js, Sass",
+	owner: "kamiyaa",
+	repoName: "kamiyaa.github.io",
+	previewImgUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/preview.png",
+	previewThumbnailUrl: "https://github.com/kamiyaa/kamiyaa.github.io/raw/master/img/preview.png",
+	tags: [ "Javascript", "React", "React Hooks", "Sass", "npm" ],
+	githubStats: {},
 };
 
 function WebsiteProjectComponent() {
