@@ -5,7 +5,7 @@ import { HeaderLinks } from "../components";
 import { ScrollOnClick } from "../utils";
 
 import { AboutContent } from "./_about";
-import { SocialLinks } from "./_social";
+import { SocialLinks } from "../components";
 
 const LogoName = "Jeff Zhao";
 

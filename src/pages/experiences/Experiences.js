@@ -28,17 +28,15 @@ const Extracurriculars = () => (
 
 function Experiences() {
 	const bookmarks = [ "Experiences", "Extracurricular" ];
-	const bookmarksComponent = bookmarks.map((bookmark) => {
-		return (
+	const bookmarksComponent = bookmarks.map((bookmark) => (
 		<a className="article-topbar-link" href={`#${bookmark}`}>{bookmark}</a>
-		)
-	});
+	));
 
 	return (
 <div>
 <Header/>
 <div className="article">
-	<MenuStrip bookmarks={bookmarksComponent}/>
+	<MenuStrip>{bookmarksComponent}</MenuStrip>
 	<div className="article-content">
 		<div>
 			<h1 id="Experiences">Experiences</h1>

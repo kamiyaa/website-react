@@ -14,7 +14,7 @@ function Projects() {
 <div>
 <Header/>
 <div className="article">
-	<MenuStrip bookmarks={bookmarksComponent}/>
+	<MenuStrip>{bookmarksComponent}</MenuStrip>
 
 	<div className="article-content">
 <div>

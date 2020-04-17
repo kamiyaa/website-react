@@ -16,6 +16,10 @@ export {
 } from "./ScrollTop";
 
 export {
+	SocialLinks
+} from "./SocialLinks";
+
+export {
 	ATab
 } from "./ATab";
 
